@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121216"/>
+      <stop offset="100%" stop-color="#0A0A0C"/>
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B7FF3C" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8ce610" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A1A22"/>
+      <stop offset="100%" stop-color="#14141A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Grid -->
+  <g stroke="#29292F" stroke-width="0.75" opacity="0.35">
+    <line x1="0" y1="50" x2="800" y2="50"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="350" x2="800" y2="350"/>
+    <line x1="0" y1="450" x2="800" y2="450"/>
+    <line x1="100" y1="0" x2="100" y2="500"/>
+    <line x1="250" y1="0" x2="250" y2="500"/>
+    <line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="550" y1="0" x2="550" y2="500"/>
+    <line x1="700" y1="0" x2="700" y2="500"/>
+  </g>
+
+  <!-- Browser Window Chrome -->
+  <rect x="40" y="30" width="720" height="440" rx="12" fill="#15151B" stroke="#29292F" stroke-width="1.5"/>
+  
+  <!-- Window Header -->
+  <path d="M 40 42 Q 40 30 52 30 L 748 30 Q 760 30 760 42 L 760 72 L 40 72 Z" fill="#1A1A22"/>
+  <circle cx="65" cy="51" r="5" fill="#FF5F56"/>
+  <circle cx="82" cy="51" r="5" fill="#FFBD2E"/>
+  <circle cx="99" cy="51" r="5" fill="#27C93F"/>
+
+  <!-- URL Bar -->
+  <rect x="130" y="41" width="360" height="20" rx="6" fill="#0E0E12" stroke="#29292F" stroke-width="1"/>
+  <text x="145" y="55" fill="#A1A1AA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">https://store.local/shop/woocommerce-catalog</text>
+
+  <!-- Store Header -->
+  <rect x="60" y="90" width="680" height="50" rx="8" fill="#1C1C24" stroke="#29292F" stroke-width="1"/>
+  <text x="80" y="121" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="16">WOOCOMMERCE STORE</text>
+  <rect x="290" y="105" width="60" height="20" rx="4" fill="#29292F"/>
+  <rect x="360" y="105" width="60" height="20" rx="4" fill="#29292F"/>
+  <rect x="430" y="105" width="60" height="20" rx="4" fill="#29292F"/>
+  
+  <!-- Cart Badge -->
+  <rect x="630" y="102" width="90" height="26" rx="6" fill="#B7FF3C"/>
+  <text x="645" y="119" fill="#0A0A0C" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="11">CART (3) • ₹</text>
+
+  <!-- Product Cards Grid -->
+  <!-- Product 1 -->
+  <rect x="60" y="160" width="210" height="280" rx="10" fill="url(#cardGrad)" stroke="#29292F" stroke-width="1"/>
+  <rect x="75" y="175" width="180" height="130" rx="6" fill="#20202A"/>
+  <!-- Product icon outline -->
+  <rect x="130" y="210" width="70" height="60" rx="4" fill="none" stroke="#B7FF3C" stroke-width="2"/>
+  <circle cx="165" cy="205" r="8" fill="none" stroke="#B7FF3C" stroke-width="2"/>
+  <!-- Labels -->
+  <rect x="75" y="320" width="130" height="14" rx="3" fill="#F5F5F5" opacity="0.9"/>
+  <rect x="75" y="342" width="80" height="10" rx="2" fill="#A1A1AA" opacity="0.6"/>
+  <text x="75" y="380" fill="#B7FF3C" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="15">₹ 1,499</text>
+  <rect x="75" y="398" width="180" height="28" rx="6" fill="#29292F"/>
+  <text x="125" y="416" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="11">Add to Cart</text>
+
+  <!-- Product 2 -->
+  <rect x="295" y="160" width="210" height="280" rx="10" fill="url(#cardGrad)" stroke="#B7FF3C" stroke-width="1.2"/>
+  <rect x="310" y="175" width="180" height="130" rx="6" fill="#20202A"/>
+  <!-- Product 2 icon -->
+  <path d="M 375 220 L 425 220 L 415 260 L 385 260 Z" fill="none" stroke="#B7FF3C" stroke-width="2"/>
+  <!-- Badge -->
+  <rect x="420" y="185" width="60" height="18" rx="4" fill="#B7FF3C"/>
+  <text x="430" y="198" fill="#0A0A0C" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="9">POPULAR</text>
+  <!-- Labels -->
+  <rect x="310" y="320" width="140" height="14" rx="3" fill="#F5F5F5" opacity="0.9"/>
+  <rect x="310" y="342" width="90" height="10" rx="2" fill="#A1A1AA" opacity="0.6"/>
+  <text x="310" y="380" fill="#B7FF3C" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="15">₹ 2,899</text>
+  <rect x="310" y="398" width="180" height="28" rx="6" fill="#B7FF3C"/>
+  <text x="360" y="416" fill="#0A0A0C" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="11">Add to Cart</text>
+
+  <!-- Product 3 / Checkout Side Preview -->
+  <rect x="530" y="160" width="210" height="280" rx="10" fill="url(#cardGrad)" stroke="#29292F" stroke-width="1"/>
+  <!-- Order Summary Header -->
+  <text x="548" y="192" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="13">ORDER SUMMARY</text>
+  <line x1="548" y1="205" x2="720" y2="205" stroke="#29292F" stroke-width="1"/>
+  <!-- Cart items -->
+  <rect x="548" y="218" width="110" height="10" rx="2" fill="#A1A1AA" opacity="0.8"/>
+  <text x="690" y="228" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">₹1,499</text>
+
+  <rect x="548" y="240" width="90" height="10" rx="2" fill="#A1A1AA" opacity="0.8"/>
+  <text x="690" y="250" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">₹2,899</text>
+
+  <line x1="548" y1="265" x2="720" y2="265" stroke="#29292F" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <text x="548" y="290" fill="#A1A1AA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Payment Gateway</text>
+  <!-- Gateway badges -->
+  <rect x="548" y="302" width="50" height="22" rx="4" fill="#20202A" stroke="#29292F"/>
+  <text x="557" y="316" fill="#B7FF3C" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="9">UPI</text>
+  <rect x="604" y="302" width="54" height="22" rx="4" fill="#20202A" stroke="#29292F"/>
+  <text x="612" y="316" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="9">CARDS</text>
+  <rect x="664" y="302" width="56" height="22" rx="4" fill="#20202A" stroke="#29292F"/>
+  <text x="672" y="316" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="9">NETBANK</text>
+
+  <!-- Total -->
+  <text x="548" y="360" fill="#F5F5F5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="13">Total</text>
+  <text x="670" y="360" fill="#B7FF3C" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="15">₹4,398</text>
+
+  <!-- Checkout Button -->
+  <rect x="548" y="390" width="172" height="36" rx="6" fill="#B7FF3C"/>
+  <text x="585" y="413" fill="#0A0A0C" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12">Proceed to Checkout</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#0A0A0C"/>
+  <rect x="1" y="1" width="62" height="62" rx="13" fill="none" stroke="#29292F" stroke-width="2"/>
+  <!-- Stylized geometric P -->
+  <path d="M 22 17 L 34 17 C 41 17 45 20.5 45 26 C 45 31.5 41 35 34 35 L 29 35 L 29 47 L 22 47 Z M 29 23 L 29 29 L 33.5 29 C 36.5 29 38 28 38 26 C 38 24 36.5 23 33.5 23 Z" fill="#B7FF3C"/>
+  <!-- Accent dot -->
+  <circle cx="45" cy="46" r="3" fill="#B7FF3C"/>
+</svg>
