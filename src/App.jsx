@@ -10,7 +10,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen bg-[#0A0A0C] text-[#F5F5F5] font-['Inter',system-ui,sans-serif]">
+    <div className="min-h-screen bg-[#0A0A0C] text-[#F5F5F5] font-sans antialiased selection:bg-[#B7FF3C] selection:text-[#0A0A0C]">
       {/* Fixed Navigation Bar */}
       <Navbar />
 

@@ -12,7 +12,7 @@ Designed with an aesthetic dark theme (`#0A0A0C` background, `#121216` / `#17171
 - **Fluid Micro-Interactions:** Smooth entrance and scroll reveals powered by `motion/react`, respecting `prefers-reduced-motion`.
 - **Dynamic Navigation:** Sticky glassmorphism header with active section tracking, smooth anchor scrolling, and a responsive mobile drawer.
 - **Editable Centralized Data:** All personal details, project descriptions, skills, experience, and contact details reside in `src/data/portfolioData.js`.
-- **Resume Download Ready:** Points directly to `/resume.pdf` with sample resume pre-generated and easy one-file replacement.
+- **Resume Download Ready:** Points directly to `/Prabakaran_Resume_New.pdf` with sample resume pre-generated and easy one-file replacement.
 - **Interactive Contact Dispatcher:** Functional email client dispatcher via `mailto:` with instant "Copy Draft" and "Copy Email / Phone" clipboard buttons.
 - **Zero Paid Dependencies:** Runs completely on open-source packages and standard static web hosting (Vercel, GitHub Pages, Netlify).
 
@@ -35,7 +35,7 @@ Designed with an aesthetic dark theme (`#0A0A0C` background, `#121216` / `#17171
 prabakaran-portfolio/
 ├── public/
 │   ├── favicon.svg               # Custom dark & neon lime favicon
-│   ├── resume.pdf                # Downloadable resume document
+│   ├── Prabakaran_Resume_New.pdf                # Downloadable resume document
 │   └── images/
 │       └── projects/
 │           ├── woocommerce-store.svg   # WooCommerce project mockup
@@ -110,7 +110,7 @@ Then update the `image` path inside `src/data/portfolioData.js` (e.g. `image: "/
 ### 3. Replace the Resume PDF
 Replace the file at:
 ```text
-public/resume.pdf
+public/Prabakaran_Resume_New.pdf
 ```
 with your updated resume PDF. The **Download Resume** button in the Hero section will automatically download this file.
 

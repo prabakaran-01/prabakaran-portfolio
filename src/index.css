@@ -2,7 +2,7 @@
 
 @theme {
   --color-bg-main: #0A0A0C;
-  --color-bg-secondary: #121216;
+  --color-bg-secondary: #111115;
   --color-bg-card: #17171C;
   --color-accent-lime: #B7FF3C;
   --color-accent-lime-hover: #c9ff5c;
@@ -13,8 +13,8 @@
   --color-border-dark: #29292F;
   --color-border-subtle: #1f1f25;
 
-  --font-display: "Space Grotesk", system-ui, -apple-system, sans-serif;
-  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-sans: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-display: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 :root {
@@ -25,7 +25,7 @@ html {
   scroll-behavior: smooth;
   background-color: #0A0A0C;
   color: #F5F5F5;
-  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -33,6 +33,8 @@ body {
   padding: 0;
   min-height: 100vh;
   background-color: #0A0A0C;
+  color: #F5F5F5;
+  font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -57,6 +59,33 @@ body {
 :focus-visible {
   outline: 2px solid #B7FF3C;
   outline-offset: 2px;
+}
+
+/* Shared Prominent Section Typography (40-48px on desktop, clamp-based) */
+.section-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-accent-lime);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.section-heading {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 3.2vw, 3rem);
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--color-text-main);
+}
+
+.section-subheading {
+  font-size: clamp(0.875rem, 1.1vw, 1rem);
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+  margin-top: 0.75rem;
 }
 
 @media (prefers-reduced-motion: reduce) {

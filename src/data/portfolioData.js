@@ -32,10 +32,10 @@ export const portfolioData = {
     // Verified Contact Info
     email: "mprabakaran123456@gmail.com",
     phone: "+91 9342795117",
-    location: "Tamil Nadu, India",
+    location: "Virudhunagar, Tamil Nadu, India",
     
-    // Resume link (points to public/resume.pdf)
-    resumeUrl: "/resume.pdf",
+    // Resume link (points to public/Prabakaran_Resume_New.pdf)
+    resumeUrl: "/Prabakaran_Resume_New.pdf",
 
     // Social Links (hidden automatically if left as empty string "")
     // Paste your real profile URLs here when ready!
@@ -87,9 +87,14 @@ export const portfolioData = {
     },
     {
       category: "Tools & Optimization",
-      description: "Workflows for security, performance, design assets, and version control.",
+      description: "Workflows for domain hosting, server configuration, security, and performance.",
       iconName: "Wrench",
       items: [
+        "Domain Management",
+        "Domain and DNS Configuration",
+        "Server Configuration",
+        "Website Hosting Setup",
+        "Website Deployment and Troubleshooting",
         "Git & Version Control",
         "Website Security Updates",
         "SEO Optimization",
@@ -100,7 +105,7 @@ export const portfolioData = {
     },
   ],
 
-  // Featured Projects (grounded in verified resume data)
+  // Projects (grounded in verified resume data)
   projects: [
     {
       id: "woocommerce-ecommerce",
@@ -123,8 +128,8 @@ export const portfolioData = {
         "Payment Gateways",
         "E-commerce",
       ],
-      image: "/images/projects/woocommerce-store.svg",
-      imageAlt: "WooCommerce E-commerce Website Architecture and Checkout Interface",
+      image: "/images/projects/woocommerce-preview.webp",
+      imageAlt: "WooCommerce E-commerce Website Architecture and Checkout Interface Preview",
       liveUrl: "",   // Add your live demo URL here when available
       githubUrl: "", // Add your code repository URL here when available
     },
@@ -149,8 +154,8 @@ export const portfolioData = {
         "Responsive Design",
         "Cross-Browser",
       ],
-      image: "/images/projects/wordpress-business.svg",
-      imageAlt: "WordPress Business Website Desktop and Mobile Responsive Mockup",
+      image: "/images/projects/wordpress-business-preview.webp",
+      imageAlt: "WordPress Corporate Business Website Desktop and Mobile Responsive Preview",
       liveUrl: "",   // Add your live demo URL here when available
       githubUrl: "", // Add your code repository URL here when available
     },
